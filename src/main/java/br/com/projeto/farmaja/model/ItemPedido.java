@@ -35,6 +35,13 @@ public class ItemPedido {
     public Integer getId() { return id; }
     public void setId(Integer id) { this.id = id; }
 
+    public void getSubtotal(BigDecimal subtotal) {
+        this.subtotal = subtotal;
+    }
+    public void setSubtotal(BigDecimal subtotal) {
+        this.subtotal = subtotal;
+    }
+
     public Integer getPedidoId() { return pedidoId; }
     // setter flexibilizado: aceita null e não lança exceção
     public void setPedidoId(Integer pedidoId) { this.pedidoId = pedidoId; }
